@@ -9,7 +9,7 @@ I forked this from MotoMonkey and renamed it a bit due to extensive changes. Int
 4. Telemetry - need to do some exploration here - would really like the system to use an ad-hoc network - that may be too far to reach - a simple point to point radio model may be the most achievable.
 
 ## System Design
-The MotoMonkey consists of two major pieces - 1) The on-board data acquisition system and 2) a ground station laptop.
+The MotoLogger consists of two major pieces - 1) The on-board data acquisition system and 2) a ground station laptop.
 ![Alt text](https://cloud.githubusercontent.com/assets/3347351/15641098/427cf59a-25f3-11e6-8442-03b79fd1e716.png)
 
 ### On-Board Data Acquisition System
