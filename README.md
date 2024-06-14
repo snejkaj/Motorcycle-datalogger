@@ -14,7 +14,7 @@ The MotoMonkey consists of two major pieces - 1) The on-board data acquisition s
 
 ### On-Board Data Acquisition System
 #### CPU/MCU
-I have choosen Beaglebone Black for this project. Cost effective. Runs linux and has 2 programmable real time units
+I have choosen Beaglebone Black for this project. Cost effective. Runs linux and has 2 programmable real time units. BeagleBone Black has a video output which enables a screen to be used to present data.
 
 Tentative functions identified for the CPU (and not limited to):
 - A true inertial navigation system (INS) with GPS aiding - the INS provides accurate orinetations, position and velocity information (this is in contrast to an attitude and heading reference system, or AHRS, that only provides orientations)
