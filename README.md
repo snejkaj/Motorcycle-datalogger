@@ -18,11 +18,11 @@ I have choosen Beaglebone Black for this project. Cost effective. Runs linux and
 
 Tentative functions identified for the CPU (and not limited to):
 - A true inertial navigation system (INS) with GPS aiding - the INS provides accurate orinetations, position and velocity information (this is in contrast to an attitude and heading reference system, or AHRS, that only provides orientations)
-- High capacity data logging to a SD card
+- High capacity data logging to a M2 SSD
 - Time synchronization with a GoPro
 
 ### GPS
-A GPS receiver and antenna will be used for accurate position, velocity and time (PVT) information. GPS time will be used as the reference time on the system. 
+A GPS receiver and antenna will be used for accurate position, velocity and time (PVT) information. GPS time will be used as the reference time on the system. GPS to be choosen needs to be accurate and fast (10Hz) to be able to log cornering on tracks
 
 ### Inertial Measurement Unit (IMU)
 
@@ -31,8 +31,8 @@ This table lists the parts I am using for the prototype - cost will come down wh
 
 | Index | Item Name    | Description | Manufacturer | Part Number | Qty | Cost   | Total   |
 | :---: | :--------    | :---------- | :----------- | :---------- | :-: | ---:   | ----:   |
-| 1     | Intel Edison | CPU/MCU     | Intel        | N/A         | 1   | $50.00 | $50.00  |
-| 2     | XBee Pro 900 | Data Link   | XBee         | N/A         | 2   | $55.00 | $110.00 |
+| 1     | Black        | CPU/MCU     | Beaglebone   | N/A         | 1   |        |         |
+| 2     | XBee Pro 868 | Data Link   | XBee         | N/A         | 2   |        |         |
 | 3     | UBlox GPS    | GPS         | UBlox        | N/A         | 1   | $49.00 | $49.00  |
 | 4     | AltIMU-10    | IMU         | Pololu       | N/A         | 1   | $23.00 | $22.00  |
 |       |              |             |              |             |     | Total  | $231.00 |
