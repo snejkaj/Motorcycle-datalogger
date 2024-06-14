@@ -1,4 +1,4 @@
-# MotoMonkey
+# MotoMonkey EU
 ## Introduction
 I wanted to find a solid data acquisition and telemetry system for track motorcycle riding. Like everything else, commercially available kits are either too expensive for feature rich models or too basic for lower cost models.  MotoMonkey is born. My goal for MotoMonkey is to create an open-source feature-rich data system that is low cost and can be built by anyone with some technical savvy.  
 
