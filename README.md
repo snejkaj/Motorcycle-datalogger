@@ -14,7 +14,7 @@ The MotoMonkey consists of two major pieces - 1) The on-board data acquisition s
 
 ### On-Board Data Acquisition System
 #### CPU/MCU
-I have tentatively chosen the Intel Edison single-board computer for this project.  It is cheap and capable, has a number of built-in goodies (like wifi and low power bluetooth) and has a small form factor. A major discriminator is the built-in microcontoller unit (MCU) that allows the system to have real-time functionality without the addition of an external MCU. I have considered Arduino solutions (after all, the Arduino is an MCU), and I have convinced myself I want more processing capability. So, why not a Raspberry Pi? Simple - no real-time capability without external modifications. I actually started this project thinking of using the Pi - but my thinking evolved to the Edison based on the things listed above. I also considered using an Xilinx Zinq SoC FPGA + ARM, but reconsidered based on the project targeting DIYers and the added complexity of dealing with an FPGA.  Later iterations of project hardware may see an evolution to something more like a Zinq (if you are curious - the Adapteva line of Parallela single board computers may interest you).    
+I have choosen Beaglebone Black for this project. Cost effective. Runs linux and has 2 programmable real time units
 
 Tentative functions identified for the CPU (and not limited to):
 - A true inertial navigation system (INS) with GPS aiding - the INS provides accurate orinetations, position and velocity information (this is in contrast to an attitude and heading reference system, or AHRS, that only provides orientations)
